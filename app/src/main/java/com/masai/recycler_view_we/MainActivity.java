@@ -24,9 +24,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void buildStudentList() {
         Student student1 = new Student("Anurag",24,"emp007");
+        StudentList.add(student1);
         Student student2 = new Student("Akash",23,"emp071");
+        StudentList.add(student2);
         for(int i =0 ; i<13; i++){
             Student student3 = new Student("xyz",21,"emp125");
+            StudentList.add(student3);
         }
     }
 

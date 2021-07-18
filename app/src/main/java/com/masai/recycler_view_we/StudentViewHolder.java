@@ -25,7 +25,7 @@ public class StudentViewHolder extends RecyclerView.ViewHolder {
     }
     public void setData(Student student){
         mTvName.setText(student.getName());
-        mTvAge.setText(student.getAge());
+        mTvAge.setText(student.getAge()+"");
         mTvRollNo.setText(student.getRollNo());
     }
 }

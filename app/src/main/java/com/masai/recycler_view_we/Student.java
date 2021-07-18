@@ -1,14 +1,14 @@
 package com.masai.recycler_view_we;
 
 public class Student {
-    String Name;
-    int Age;
-    String RollNo;
+    private String Name;
+     private int Age;
+     private String rollNo;
 
     public Student(String name, int age, String rollNo) {
-        Name = name;
-        Age = age;
-        RollNo = rollNo;
+        this.Name = name;
+       this.Age = age;
+        this.rollNo = rollNo;
     }
 
     public String getName() {
@@ -20,7 +20,7 @@ public class Student {
     }
 
     public String getRollNo() {
-        return RollNo;
+        return rollNo;
     }
 }
 
